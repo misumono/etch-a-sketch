@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="ame.png">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <title>Etch-a-Sketch</title>
+</head>
+<body>
+  <div class="title">Etch- A -SkEtch</div>
+  <div class="main">
+    <div class="left">choose size
+      <div class="modes">
+        <div id="eight">8 x 8</div>
+        <div id="sixteen">16 x 16</div>
+        <div id="thirtytwo">32 x 32</div>
+        <div id="sixtyfour">48 x 48</div>
+      </div>
+    </div>
+    <div id="grid">
+      <!-- Grid made by JS-->
+    </div>
+    <div class="tools">
+      <div id="title">Color picker</div>
+      <input type="color" id='input'>
+      <div class="buttons">
+        <div class="top">  
+          <div class="pencilAndEraser"> <!--pencil and eraser-->
+            <div id="pencil">pencil</div>
+            <div id="eraser">eraser</div>
+          </div>
+          <div class="justBigger"> <!--justBigger-->
+            <div id="bigger">+</div>
+            <div id="empty"></div>
+          </div>
+          <div class="smallerAndClean">
+            <div id="smaller">-</div>
+            <div id="empty"></div>
+            <div id="clean">clean</div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div>BONUS</div>
+          <div class="moreButtons">
+            <div class="shades">
+              <div id="darker">darkener</div>
+              <div id="brighter">brightener</div>
+            </div>
+            <div id="randomizer">ran dom color</div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
